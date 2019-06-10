@@ -1,0 +1,138 @@
+main {
+	margin: auto;
+	background-color:#f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	width: 962px;
+
+}
+
+
+section{
+
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+#main-header{
+	background-color: #00FFFF;
+	padding:10px;
+	color:white;
+	font-size: 20px;
+	float:left;	
+
+}
+
+
+#navbar{
+	background-color: #333;
+	color:#FFF;
+	float: right;
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#555;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+	
+}
+
+
+#Message {
+	height: 200px;
+}
+
+.clr{
+	clear:both;
+}
+
+
+/* id -> #  class -> .
+*/
+
+
+.my-form{
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+	
+}
+
+.my-form label{
+	 display:block;	
+
+}
+
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width: 100%;
+
+}
+
+.my-form input[type="submit"]{
+	background-color: #00FFFF;
+	color:#FFF;
+	padding:10px 15px;
+	border: none;
+}
+
+
+.menu{
+
+	padding:5px;
+
+
+}
+
+
+.text-block {
+  position: relative;
+  background-color: black;
+  color: white;
+ 
+}
+
+#cat {
+	padding:20px;
+	float:left;
+}
+
+
+.thumbnail {
+	width: 300px;
+	float: left;
+	margin:20px;
+
+}
+
+.menutitle {
+	text-align: center;
+	padding:10px;
+	color:white;
+	background-color: green;
+	opacity:0.5;
+	position:relative;
+	top:-100px;	
+}
